@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import time
 from bs4 import BeautifulSoup as soup
+import os
 
 from urllib.request import  Request, urlopen
 
@@ -193,5 +194,5 @@ bc_price_3 = bc_price_2.find("p", {
 })
 aml = bc_price_3.get_text()
 aml_2 = aml.strip()
-client.run(TOKEN)
+client.run(str(os.environ.get('BOT_TOKEN')))
 
