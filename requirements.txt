@@ -1,0 +1,5 @@
+discord.py
+time
+bs4
+urllib
+
