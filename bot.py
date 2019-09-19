@@ -90,13 +90,13 @@ async def emigs(ctx):
 
 
 @client.command(pass_context=True)
-async def gbzp(ctx):
+async def .cigs(ctx):
     channel_2 = ctx.message.channel
     spawner_channel = client.get_channel(606184739166093337)
     emigs_channel = client.get_channel(606185821480943617)
     if channel_2 == spawner_channel:
         message_igs = ctx.message.content.replace('.gbzp ', '')
-        await emigs_channel.edit(name="𝐆𝐨𝐥𝐝𝐁𝐥𝐨𝐜𝐤 𝐙𝐏: " + message_igs)
+        await emigs_channel.edit(name="𝐂𝐨𝐚𝐥 𝐈𝐆𝐒: " + message_igs)
         time.sleep(5)
         msg = ctx.message
         await msg.delete()
@@ -119,13 +119,13 @@ async def igs(ctx):
         await channel_2.send("Please use the #updates Channel!")
 
 @client.command(pass_context=True)
-async def zp(ctx):
+async def mcows(ctx):
     channel_2 = ctx.message.channel
     spawner_channel = client.get_channel(606184739166093337)
     zp_channel = client.get_channel(606185825595817984)
     if channel_2 == spawner_channel:
         message_igs = ctx.message.content.replace('.zp ', '')
-        await zp_channel.edit(name="𝐙𝐏: " + message_igs)
+        await zp_channel.edit(name="𝐌𝐮𝐭𝐚𝐧𝐭 𝐂𝐨𝐰𝐬: " + message_igs)
         time.sleep(5)
         msg = ctx.message
         await msg.delete()
@@ -134,19 +134,32 @@ async def zp(ctx):
 
 
 @client.command(pass_context=True)
-async def gizp(ctx):
+async def icows(ctx):
     channel_2 = ctx.message.channel
     spawner_channel = client.get_channel(606184739166093337)
     gizp_channel = client.get_channel(606185823058264069)
     if channel_2 == spawner_channel:
         message_igs = ctx.message.content.replace('.gizp ', '')
-        await gizp_channel.edit(name="𝐆𝐨𝐥𝐝𝐈𝐧𝐠𝐨𝐭 𝐙𝐏: " + message_igs)
+        await gizp_channel.edit(name="𝐈𝐫𝐨𝐧 𝐂𝐨𝐰𝐬: " + message_igs)
+        time.sleep(5)
+        msg = ctx.message
+        await msg.delete()
+    else:
+        await channel_2.send("Please use the #updates Channel!")@client.command(pass_context=True)
+        
+@client.command(pass_context=True)
+async def cows(ctx):
+    channel_2 = ctx.message.channel
+    spawner_channel = client.get_channel(606184739166093337)
+    gizp_channel = client.get_channel(606185823058264069)
+    if channel_2 == spawner_channel:
+        message_igs = ctx.message.content.replace('.gizp ', '')
+        await gizp_channel.edit(name="𝐂𝐨𝐰𝐬: " + message_igs)
         time.sleep(5)
         msg = ctx.message
         await msg.delete()
     else:
         await channel_2.send("Please use the #updates Channel!")
-
 
 @client.command(pass_context = True)
 async def clear(ctx, amount = 50):
