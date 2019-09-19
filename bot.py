@@ -53,11 +53,12 @@ async def isworth(ctx):
 async def setup(ctx):
     guild = ctx.message.guild
     await ctx.guild.create_category(":bar_chart: Spawner Counts :bar_chart:")
-    await guild.create_voice_channel('GoldBlock ZP: ')
     await guild.create_voice_channel('Emmy IGS: ')
-    await guild.create_voice_channel('GoldIngot ZP:')
-    await guild.create_voice_channel('IGS: ')
-    await guild.create_voice_channel('ZP: ')
+    await guild.create_voice_channel('Coal IGS: ')
+    await guild.create_voice_channel('IGS:')
+    await guild.create_voice_channel('Mutant Cows: ')
+    await guild.create_voice_channel('Iron Cows: ')
+    await guild.create_voice_channel('Cows: ')
 
 @client.command(pass_context=True)
 async def ign(ctx):
