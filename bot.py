@@ -12,7 +12,7 @@ client = commands.Bot(command_prefix='.')
 client.remove_command('help')
 client.remove_command('play')
 
-channel_updates = client.get_channel(606184739166093337)
+channel_updates = client.get_channel(629484048888233987)
 
 
 @client.event
@@ -25,7 +25,6 @@ async def on_ready():
 @client.command(pass_context=True)
 async def istop(ctx):
     channel = ctx.message.channel
-    channel_updates = client.get_channel(606184739166093337)
     istop_channel = client.get_channel(606188136925626489)
     if channel == channel_updates:
         istop_lvl = ctx.message.content.replace('.istop', '')
@@ -37,7 +36,6 @@ async def istop(ctx):
 @client.command(pass_context=True)
 async def isworth(ctx):
     channel = ctx.message.channel
-    channel_updates = client.get_channel(606184739166093337)
     istop_channel = client.get_channel(606202968701665310)
     if channel == channel_updates:
         istop_lvl = ctx.message.content.replace('.isworth', '')
@@ -60,7 +58,6 @@ async def setup(ctx):
 
 @client.command(pass_context=True)
 async def ign(ctx):
-    channel_updates = client.get_channel(606184739166093337)
     channel = ctx.message.channel
     if channel == channel_updates:
         member = ctx.message.author
@@ -75,7 +72,6 @@ async def ign(ctx):
 
 @client.command(pass_context=True)
 async def emigs(ctx):
-    channel_updates = client.get_channel(606184739166093337)
     channel_2 = ctx.message.channel
     igs_channel = client.get_channel(606185822013620225)
     if channel_2 == channel_updates:
