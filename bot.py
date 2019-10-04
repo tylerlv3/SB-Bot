@@ -17,8 +17,6 @@ channel_updates = client.get_channel(606184739166093337)
 
 @client.event
 async def on_ready():
-    pcc = client.get_channel(606204142293352468)
-    await pcc.edit(name="🙋‍ Players: " + aml_2)
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
@@ -173,40 +171,5 @@ async def clear(ctx, amount = 50):
             await client.delete_messages(messages)
             await client.say('Messages Deleted.')
 
-url="https://minecraftlist.com/servers/pvpwars.net"
-req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-
-web_byte = urlopen(req).read()
-
-webpage = web_byte.decode('utf-8')
-page_souped = soup(webpage, "html.parser")
-bc_price = page_souped.find("div", {
-    "class": "fl w-100 w-34-ns border-box ph2 ph3-ns mb3"
-})
-
-
-player_count = bc_price.get_text()
-
-
-pcc = client.get_channel(606204142293352468)
-player_count_clean = player_count.replace("There's room for 404 more players.", '' )
-
-
-
-url_2="https://minecraftlist.com/servers/pvpwars.net"
-req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-
-web_byte = urlopen(req).read()
-
-webpage = web_byte.decode('utf-8')
-page_souped = soup(webpage, "html.parser")
-bc_price_2 = page_souped.find("div", {
-    "class": "fl w-100 w-34-ns border-box ph2 ph3-ns mb3"
-})
-bc_price_3 = bc_price_2.find("p", {
-    "class": "f4 f2-ns ma0 mb2"
-})
-aml = bc_price_3.get_text()
-aml_2 = aml.strip()
 client.run(str(os.environ.get('BOT_TOKEN')))
 
