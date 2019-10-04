@@ -25,7 +25,7 @@ async def on_ready():
 @client.command(pass_context=True)
 async def istop(ctx):
     channel = ctx.message.channel
-    istop_channel = client.get_channel(606188136925626489)
+    istop_channel = client.get_channel(629487594643783680)
     if channel == channel_updates:
         istop_lvl = ctx.message.content.replace('.istop', '')
         await istop_channel.edit(name="🔝 𝐈𝐬 𝐓𝐨𝐩 𝐑𝐚𝐧𝐤: " + istop_lvl)
@@ -36,7 +36,7 @@ async def istop(ctx):
 @client.command(pass_context=True)
 async def isworth(ctx):
     channel = ctx.message.channel
-    istop_channel = client.get_channel(606202968701665310)
+    istop_channel = client.get_channel(629487841172520980)
     if channel == channel_updates:
         istop_lvl = ctx.message.content.replace('.isworth', '')
         await istop_channel.edit(name="💰 𝐈𝐬 𝐖𝐨𝐫𝐭𝐡: " + istop_lvl)
