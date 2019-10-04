@@ -24,6 +24,7 @@ async def on_ready():
 
 @client.command(pass_context=True)
 async def istop(ctx):
+    channel_updates = client.get_channel(629484048888233987)
     channel = ctx.message.channel
     istop_channel = client.get_channel(629487594643783680)
     if channel == channel_updates:
@@ -35,6 +36,7 @@ async def istop(ctx):
 
 @client.command(pass_context=True)
 async def isworth(ctx):
+    channel_updates = client.get_channel(629484048888233987)
     channel = ctx.message.channel
     istop_channel = client.get_channel(629487841172520980)
     if channel == channel_updates:
