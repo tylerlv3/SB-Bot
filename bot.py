@@ -73,7 +73,7 @@ async def ign(ctx):
 @client.command(pass_context=True)
 async def emigs(ctx):
     channel_2 = ctx.message.channel
-    igs_channel = client.get_channel(606185822013620225)
+    igs_channel = client.get_channel(629483443201376257)
     if channel_2 == channel_updates:
         message_igs = ctx.message.content.replace('.emigs ', '')
         await igs_channel.edit(name="𝐄𝐦𝐦𝐲 𝐈𝐆𝐒: " + message_igs)
@@ -87,8 +87,7 @@ async def emigs(ctx):
 @client.command(pass_context=True)
 async def cigs(ctx):
     channel_2 = ctx.message.channel
-    spawner_channel = client.get_channel(606184739166093337)
-    emigs_channel = client.get_channel(606185821480943617)
+    spawner_channel = client.get_channel(629483443885047818)
     if channel_2 == spawner_channel:
         message_igs = ctx.message.content.replace('.gbzp ', '')
         await emigs_channel.edit(name="𝐂𝐨𝐚𝐥 𝐈𝐆𝐒: " + message_igs)
@@ -102,8 +101,7 @@ async def cigs(ctx):
 @client.command(pass_context=True)
 async def igs(ctx):
     channel_2 = ctx.message.channel
-    spawner_channel = client.get_channel(606184739166093337)
-    igs_channel = client.get_channel(606185823657918622)
+    spawner_channel = client.get_channel(629483443977322500)
     if channel_2 == spawner_channel:
         message_igs = ctx.message.content.replace('.igs ', '')
         await igs_channel.edit(name="𝐈𝐆𝐒: " + message_igs)
@@ -116,8 +114,7 @@ async def igs(ctx):
 @client.command(pass_context=True)
 async def mcows(ctx):
     channel_2 = ctx.message.channel
-    spawner_channel = client.get_channel(606184739166093337)
-    zp_channel = client.get_channel(606185825595817984)
+    spawner_channel = client.get_channel(629483445147533312)
     if channel_2 == spawner_channel:
         message_igs = ctx.message.content.replace('.zp ', '')
         await zp_channel.edit(name="𝐌𝐮𝐭𝐚𝐧𝐭 𝐂𝐨𝐰𝐬: " + message_igs)
@@ -131,8 +128,7 @@ async def mcows(ctx):
 @client.command(pass_context=True)
 async def icows(ctx):
     channel_2 = ctx.message.channel
-    spawner_channel = client.get_channel(606184739166093337)
-    gizp_channel = client.get_channel(606185823058264069)
+    spawner_channel = client.get_channel(629483445407711243)
     if channel_2 == spawner_channel:
         message_igs = ctx.message.content.replace('.gizp ', '')
         await gizp_channel.edit(name="𝐈𝐫𝐨𝐧 𝐂𝐨𝐰𝐬: " + message_igs)
@@ -145,8 +141,7 @@ async def icows(ctx):
 @client.command(pass_context=True)
 async def cows(ctx):
     channel_2 = ctx.message.channel
-    spawner_channel = client.get_channel(606184739166093337)
-    gizp_channel = client.get_channel(606185823058264069)
+    spawner_channel = client.get_channel(629483445667627028)
     if channel_2 == spawner_channel:
         message_igs = ctx.message.content.replace('.gizp ', '')
         await gizp_channel.edit(name="𝐂𝐨𝐰𝐬: " + message_igs)
