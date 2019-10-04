@@ -89,7 +89,7 @@ async def emigs(ctx):
 
 
 @client.command(pass_context=True)
-async def .cigs(ctx):
+async def cigs(ctx):
     channel_2 = ctx.message.channel
     spawner_channel = client.get_channel(606184739166093337)
     emigs_channel = client.get_channel(606185821480943617)
