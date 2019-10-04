@@ -24,7 +24,7 @@ async def on_ready():
 
 @client.command(pass_context=True)
 async def istop(ctx):
-    channel_updates = client.get_channel(629484048888233987)
+    channel_updates = client.get_channel(629493784543232020)
     channel = ctx.message.channel
     istop_channel = client.get_channel(629487594643783680)
     if channel == channel_updates:
@@ -36,7 +36,7 @@ async def istop(ctx):
 
 @client.command(pass_context=True)
 async def isworth(ctx):
-    channel_updates = client.get_channel(629484048888233987)
+    channel_updates = client.get_channel(629493784543232020)
     channel = ctx.message.channel
     istop_channel = client.get_channel(629487841172520980)
     if channel == channel_updates:
@@ -74,7 +74,7 @@ async def ign(ctx):
 
 @client.command(pass_context=True)
 async def emigs(ctx):
-    channel_updates = client.get_channel(629484048888233987)
+    channel_updates = client.get_channel(629493784543232020)
     channel_2 = ctx.message.channel
     spawner_channel = client.get_channel(629483443201376257)
     if channel_2 == channel_updates:
@@ -89,7 +89,7 @@ async def emigs(ctx):
 
 @client.command(pass_context=True)
 async def cigs(ctx):
-    channel_updates = client.get_channel(629484048888233987)
+    channel_updates = client.get_channel(629493784543232020)
     channel_2 = ctx.message.channel
     spawner_channel = client.get_channel(629483443885047818)
     if channel_2 == channel_updates:
@@ -104,7 +104,7 @@ async def cigs(ctx):
 
 @client.command(pass_context=True)
 async def igs(ctx):
-    channel_updates = client.get_channel(629484048888233987)
+    channel_updates = client.get_channel(629493784543232020)
     channel_2 = ctx.message.channel
     spawner_channel = client.get_channel(629483443977322500)
     if channel_2 == channel_updates:
@@ -118,7 +118,7 @@ async def igs(ctx):
 
 @client.command(pass_context=True)
 async def mcows(ctx):
-    channel_updates = client.get_channel(629484048888233987)
+    channel_updates = client.get_channel(629493784543232020)
     channel_2 = ctx.message.channel
     spawner_channel = client.get_channel(629483445147533312)
     if channel_2 == channel_updates:
@@ -133,7 +133,7 @@ async def mcows(ctx):
 
 @client.command(pass_context=True)
 async def icows(ctx):
-    channel_updates = client.get_channel(629484048888233987)
+    channel_updates = client.get_channel(629493784543232020)
     channel_2 = ctx.message.channel
     spawner_channel = client.get_channel(629483445407711243)
     if channel_2 == channel_updates:
@@ -147,7 +147,7 @@ async def icows(ctx):
         
 @client.command(pass_context=True)
 async def cows(ctx):
-    channel_updates = client.get_channel(629484048888233987)
+    channel_updates = client.get_channel(629493784543232020)
     channel_2 = ctx.message.channel
     spawner_channel = client.get_channel(629483445667627028)
     if channel_2 == channel_updates:
