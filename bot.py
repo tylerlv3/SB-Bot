@@ -183,10 +183,12 @@ async def vxniilive():
     while live in lines:
         vxnii = client.get_channel(662231539756564493)
         await vxnii.edit(name="tylerlv3: Live on YT")
+        time.sleep(120)
         await vxniilive()
     else:
         vxnii = client.get_channel(662231539756564493)
         await vxnii.edit(name="tylerlv3: Not live")
+        time.sleep(120)
         await vxniilive()
 
 
